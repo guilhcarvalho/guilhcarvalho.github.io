@@ -1,0 +1,112 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+}
+
+body {
+    background: #0d1117;
+    color: #e6edf3;
+    line-height: 1.6;
+}
+
+header {
+    background: #161b22;
+    color: #58a6ff;
+    text-align: center;
+    padding: 2rem 1rem;
+    border-bottom: 2px solid #58a6ff;
+}
+
+header h1 {
+    font-size: 2rem;
+    color: #e6edf3;
+}
+
+header p {
+    font-weight: 300;
+}
+
+main {
+    max-width: 900px;
+    margin: 2rem auto;
+    padding: 0 1rem;
+}
+
+section {
+    background: #161b22;
+    padding: 1.5rem;
+    margin-bottom: 1.5rem;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+}
+
+section h2 {
+    color: #58a6ff;
+    margin-bottom: 1rem;
+    border-bottom: 1px solid #30363d;
+    padding-bottom: 0.5rem;
+}
+
+ul {
+    list-style: none;
+}
+
+ul li {
+    margin-bottom: 0.5rem;
+}
+
+footer {
+    text-align: center;
+    padding: 1rem;
+    background: #161b22;
+    color: #8b949e;
+    font-size: 0.9rem;
+    border-top: 1px solid #30363d;
+}
+
+a {
+    color: #58a6ff;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.projetos li {
+    margin-bottom: 1.5rem;
+}
+
+.projetos li:last-child {
+    margin-bottom: 0;
+}
+
+.projetos p {
+    text-indent: 2rem;
+    margin-top: 0.5rem;
+}
+
+.tag {
+    display: inline-block;
+    padding: 2px 8px;
+    margin: 2px;
+    border-radius: 4px;
+    background: #eef2f7;
+    font-size: 0.85em;
+}
+
+.foto-perfil {
+    display: block;
+    width: 150px;
+    height: 150px;
+    margin: 0 auto 1rem;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 3px solid #58a6ff;
+}
+
+p {
+    text-indent: 2em;
+}
